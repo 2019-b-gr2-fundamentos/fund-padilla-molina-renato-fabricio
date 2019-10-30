@@ -37,3 +37,45 @@ if(casadoYMosero){
 //}else{
 //    console.log("Toddo bien");
 //}
+
+
+// TRUTY
+const nombreVacio="";
+if(""){
+    console.log("Truty");
+}else {
+    console.log("Falsy");
+}// FALSY
+const calculo="Sumar";// operaciones
+switch(calculo){
+    case "Sumar":
+        // code
+        break;
+    case "Restar":
+        // code
+        break;
+    case "Multiplicar":
+            // code
+            break;
+    case "Dividir":
+        // code
+        break;
+}
+// 6 guagua
+// 18 guambra
+// 65 longo
+// 66 ruku
+const edadString=prompt("Ingresar edad");
+const edad=Number(edadString);
+if(edad<=6&&edad>=0){
+    console.log("Guagua");
+}
+if(edad>6&&edad<=18){
+    console.log("Guambra");
+}
+if(edad>18&&edad<=65){
+    console.log("Longo");
+}
+if(edad>65){
+    console.log("Ruku");
+}

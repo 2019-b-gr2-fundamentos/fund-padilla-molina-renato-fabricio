@@ -53,7 +53,7 @@ let progra=0;
 let calculo=0;
 let fisica=0;
 let ingles=0;
-/*while(hagoDeber<50){
+while(hagoDeber<50){
     if(hagoDeber%3==0){
         compiladores++;
     }else{
@@ -69,7 +69,7 @@ let ingles=0;
 }
 console.log(`Analisis: ${analisis}`);
 console.log(`Algebra: ${algebra}`);
-console.log(`Compiladores: ${compiladores}`);*/
+console.log(`Compiladores: ${compiladores}`);
 while(hagoDeber<1000){
     if(hagoDeber%13==0){
         ingles++;

@@ -9,27 +9,27 @@ calculo=0;
 fisica=0;
 ingles=0;
 
-while hagoDeber<1000 
-    if hagoDeber%13==0 
-        ingles++
+while hagoDeber < 1000 
+    if hagoDeber % 13 == 0 
+        ingles=ingles+1;
     else
-        if hagoDeber%11==0
-            fisica++
+        if hagoDeber % 11 == 0
+            fisica=fisica+1;
          else
-            if hagoDeber%7==0
-                calculo++
+            if hagoDeber % 7 == 0
+                calculo=calculo+1;
              else
-                if hagoDeber%5==0
-                    progra++
+                if hagoDeber % 5 == 0
+                    progra=progra+1;
                  else
-                    if hagoDeber%3==0
-                        compiladores++
+                    if hagoDeber % 3 == 0
+                        compiladores=compiladores+1;
                      else
-                        if hagoDeber%2==0
-                            algebra++
+                        if hagoDeber % 2 == 0
+                            algebra=algebra+1;
                          else 
-                            if hagoDeber%1==0
-                                analisis++
+                            if hagoDeber % 1 == 0
+                                analisis=analisis+1;
                             end
                         end
                     end
@@ -37,7 +37,7 @@ while hagoDeber<1000
             end
         end
     end
-    hagoDeber++
+    hagoDeber=hagoDeber+1;
 end
 puts"Analisis: #{analisis}";
 puts"Algebra: #{algebra}";

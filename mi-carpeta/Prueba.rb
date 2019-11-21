@@ -1,8 +1,12 @@
+=begin
 hagoDeber=0;
 analisis=0;
 algebra=0;
 compiladores=0;
 
+rescue => exception
+    
+end
 while hagoDeber < 50
     if hagoDeber % 3 == 0
         compiladores=compiladores+1;
@@ -17,6 +21,8 @@ while hagoDeber < 50
     end
     hagoDeber=hagoDeber+1;
 end
+
 puts"Analisis: #{analisis}"
 puts"Algebra: #{algebra}"
 puts"Compiladores: #{compiladores}"
+=end

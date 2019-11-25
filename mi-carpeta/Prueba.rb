@@ -1,28 +1,20 @@
-=begin
-hagoDeber=0;
-analisis=0;
-algebra=0;
-compiladores=0;
-
-rescue => exception
-    
-end
-while hagoDeber < 50
-    if hagoDeber % 3 == 0
-        compiladores=compiladores+1;
-    else
-        if hagoDeber % 2 == 0
-            algebra=algebra+1;
-        else 
-            if hagoDeber % 2 != 0 
-                analisis=analisis+1;
-            end
-        end
-    end
-    hagoDeber=hagoDeber+1;
-end
-
-puts"Analisis: #{analisis}"
-puts"Algebra: #{algebra}"
-puts"Compiladores: #{compiladores}"
-=end
+arregloNumeros=[1,2,3,9,4,5,6,7,8,9,10];
+# Acceder
+print "#{arregloNumeros[3]}\n";#-> 9
+# Añadir al final
+arregloNumeros.push(11);
+print "#{arregloNumeros}\n";
+# Borrar al final
+arregloNumeros.pop();
+print "#{arregloNumeros}\n";
+# Añadir
+arregloNumeros.splice(0,0,1.2);
+print "#{arregloNumeros}\n";
+# Borrar
+arregloNumeros.slice(7,1);
+print "#{arregloNumeros}\n";
+# Buscar el indice de un elemnto
+puts arregloNumeros.find_index"5"; #-> 5
+print "#{arregloNumeros.find_index"11"}\n"; #-> -1 cuando no hay un elemento
+#arregloNumeros.splice(0,1,999);
+print "#{arregloNumeros}\n";

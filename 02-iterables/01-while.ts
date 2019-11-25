@@ -1,5 +1,5 @@
 // DO WHILE
-/*let vecesQeHeComido=0;
+let vecesQeHeComido=0;
 do{
     console.log('Vamos a comer');
     vecesQeHeComido=vecesQeHeComido+1;
@@ -35,7 +35,7 @@ while(vecesQeHeComido<3){
         default:
             console.log("Gordito");
     }
-}*/
+}
 /*
 1 Analisis
 2 Algebra

@@ -1,5 +1,20 @@
-# While
-
+# DO WHILE
+vecesQeHeComido=0;
+begin
+    puts"Vamos a comer";
+    vecesQeHeComido=vecesQeHeComido+1;
+    case vecesQeHeComido
+    when 1
+        puts"Desayuno";
+    when 2
+        puts"Almuerzo";
+    when 3
+        puts"Merienda";
+    else
+        puts"Gordito";
+    end
+end while vecesQeHeComido < 4;
+# WHILE
 hagoDeber=0;
 analisis=0;
 algebra=0;
@@ -45,4 +60,4 @@ puts"Compiladores: #{compiladores}";
 puts"Programacion: #{progra}";
 puts"Calculo: #{calculo}";
 puts"Fisica: #{fisica}";
-puts"Ingles: #{ingles}";
+puts"Ingles: #{ingles}"; 

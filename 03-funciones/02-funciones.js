@@ -33,25 +33,24 @@ function calculadora() {
     const esValida = esSuma || esResta || esMulti || esDivi || salir;
     let resultado = 0;
     if (esValida) {
-        
-        if (esSuma) {
-            resultado = sumar(numeroUno, numeroDos);
-        }
-        if (esResta) {
-            resultado = restar(numeroUno, numeroDos);
-        }
-        if (esMulti) {
-            resultado = multiplicar(numeroUno, numeroDos);
-        }
-        if (esDivi) {
-            resultado = dividir(numeroUno, numeroDos);
-        }
         if (salir) {
             console.log("Adios");
         }
         else {
             const numeroUno = +prompt("Numero 1");
             const numeroDos = +prompt("Numero 1");
+            if (esSuma) {
+                resultado = sumar(numeroUno, numeroDos);
+            }
+            if (esResta) {
+                resultado = restar(numeroUno, numeroDos);
+            }
+            if (esMulti) {
+                resultado = multiplicar(numeroUno, numeroDos);
+            }
+            if (esDivi) {
+                resultado = dividir(numeroUno, numeroDos);
+            }
             console.log(resultado);
         }
     }

@@ -2,15 +2,22 @@ function main(){
     recorrerArreglo([1,2,3,4,5,6,7,8,9,10],0);
 }
 function recorrerArreglo(arreglo:number[],indice:number):void{
-    if(0==arreglo.length){
+    if(indice==-1){
         console.log("Se termino");
     }else{
         if(indice==0){
-        console.log(arreglo[arreglo.length]);
-        recorrerArreglo(arreglo,arreglo.length-1);
+            indice=arreglo.length-1;
+            console.log(arreglo[indice]);
+            recorrerArreglo(arreglo,indice-1);
         }else{
-            console.log(arreglo[arreglo.length]);
-            recorrerArreglo(arreglo,arreglo.length-1);
+            if(indice==1){
+                console.log(arreglo[indice]);
+                console.log(arreglo[indice-1]);
+                recorrerArreglo(arreglo,indice-2);
+            }else {
+                console.log(arreglo[indice]);
+                recorrerArreglo(arreglo,indice-1);
+            }
         }
     }
 }

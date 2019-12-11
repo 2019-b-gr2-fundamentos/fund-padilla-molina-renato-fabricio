@@ -77,3 +77,4 @@ if opcionString !=0
         puts "Opcion incorecta";    
     end
 end
+gets();

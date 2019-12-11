@@ -9,7 +9,7 @@
 const arregloRandom=[];
 let verificacion=0;
 const jugadores=10;
-/*while(verificacion==0){
+while(verificacion==0){
     for(let contador=0;contador<jugadores;contador++){
         arregloRandom[contador]=Math.floor(Math.random() * 2);
     }
@@ -18,7 +18,7 @@ const jugadores=10;
             verificacion++;
         }
     }
-}*/
+}
 verificacion=Math.floor(Math.random() * jugadores);
 for(let contador=0;contador<jugadores;contador++){
     arregloRandom[contador]=0;

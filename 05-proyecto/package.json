@@ -1,0 +1,14 @@
+{
+  "name": "05-proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "empezar": "tsc index.ts && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reno-lib-1": "^1.0.0"
+  }
+}

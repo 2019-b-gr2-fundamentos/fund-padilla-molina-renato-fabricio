@@ -1,0 +1,17 @@
+{
+  "name": "reno-lib-1",
+  "version": "1.0.0",
+  "description": "Lbreria de fundamentos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renato Padilla",
+  "license": "ISC",
+  "keywords": [
+    "fundamentos",
+    "epn",
+    "libreria",
+    "ejemplo"
+  ]
+}

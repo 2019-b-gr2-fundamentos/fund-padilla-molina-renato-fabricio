@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "reno-lib-1": "^1.0.0"
+    "reno-lib-1": "^2.1.0"
   }
 }

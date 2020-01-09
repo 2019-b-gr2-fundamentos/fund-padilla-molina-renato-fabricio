@@ -2,4 +2,16 @@
 exports.__esModule = true;
 //const sumaLib=require('reno-lib-1/lib/suma');
 var sumaLib = require("reno-lib-1/lib/suma");
+var restaLib = require("reno-lib-1/lib/resta");
+var multiplicacionLib = require("reno-lib-1/lib/multiplicacion");
+var divisionLib = require("reno-lib-1/lib/division");
+var potenciaLib = require("reno-lib-1/lib/potencia");
+var radicacionLib = require("reno-lib-1/lib/radicacion");
+var factorialLib = require("reno-lib-1/lib/factorial");
 console.log("La respuesta es: " + sumaLib(4, 7));
+console.log("La respuesta es: " + restaLib(4, 7));
+console.log("La respuesta es: " + multiplicacionLib(4, 7));
+console.log("La respuesta es: " + divisionLib(4, 7));
+console.log("La respuesta es: " + potenciaLib(4, 3));
+console.log("La respuesta es: " + radicacionLib(4, 2));
+console.log("La respuesta es: " + factorialLib(4));

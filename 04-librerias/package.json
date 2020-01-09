@@ -1,6 +1,6 @@
 {
   "name": "reno-lib-1",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "Lbreria de fundamentos",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,8 @@
     "epn",
     "libreria",
     "ejemplo"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  }
 }

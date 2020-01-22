@@ -1,0 +1,14 @@
+{
+  "name": "02-estructuras-de-datos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "naruto": "(tsc 08-estructuras-de-datos.ts --target ES5 || echo) && node 08-estructuras-de-datos.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.3.0"
+  }
+}

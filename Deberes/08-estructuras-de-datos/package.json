@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "naruto": "(tsc 08-estructuras-de-datos.ts --target ES5 || echo) && node 08-estructuras-de-datos.js"
+    "naruto": "(tsc 08-deber.ts --target ES5 || echo) && node 08-deber.js"
   },
   "author": "",
   "license": "ISC",

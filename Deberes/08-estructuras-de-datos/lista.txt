@@ -1,0 +1,1 @@
+[{"id":1,"nombre":"Naruto","clan":"Uzumaki","aldea":"Konoha","kekkei_genkai":"no","tipo":"No"},{"id":2,"nombre":"Gaara","clan":"Kazekage","aldea":"Suna","kekkei_genkai":"si","tipo":"Iman"},{"id":3,"nombre":"Haku","clan":"Desconocido","aldea":"Kiri","kekkei_genkai":"si","tipo":"Hyoton"}]

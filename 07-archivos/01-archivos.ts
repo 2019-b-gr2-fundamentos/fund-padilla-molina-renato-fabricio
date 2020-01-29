@@ -1,5 +1,5 @@
 import {leerArchivo} from "./02-leer-archivo";
-import {escribitArchivo} from "./03-escribir-archivo"
+import {escribirArchivo} from "./03-escribir-archivo"
 import * as prompts from 'prompts';
 import { Estudiante } from "./interfaces/estudiantes.interface";
 
@@ -121,7 +121,7 @@ async function main(){
 
         const arregloTexto = JSON.stringify(arregloEstudiantes);
         console.log(arregloTexto);
-        escribitArchivo('./ejemplo.txt',arregloTexto);
+        escribirArchivo('./ejemplo.txt',arregloTexto);
     )
     /*
     const nuevoContenido='\nQue tal estais';

@@ -4,6 +4,7 @@ import {datosNinja} from './interfaces/datos-ninja.interface';
 function main(){
     const ninjas: datosNinja[]=[];
     ninjas[0]={
+        id: 1,
         nombre: 'Naruto',
         clan: 'Uzumaki',
         aldea: 'Konoha',
@@ -11,6 +12,7 @@ function main(){
         tipo: 'No',
     }
     ninjas[1]={
+        id: 2,
         nombre: 'Gaara',
         clan: 'Kazekage',
         aldea: 'Suna',
@@ -18,6 +20,7 @@ function main(){
         tipo: 'Iman',
     }
     ninjas[2]={
+        id: 3,
         nombre: 'Haku',
         clan: 'Desconocido',
         aldea: 'Kiri',

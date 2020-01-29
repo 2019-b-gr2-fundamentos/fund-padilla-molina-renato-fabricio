@@ -1,1 +1,1 @@
-[{"id":1,"nombre":"Ren","aldea":"Quito"},{"id":2,"nombre":"Joma","aldea":"Quito"},{"id":3,"nombre":"Fab","aldea":"Quito"},{"id":4,"nombre":"Yomy","aldea":"Quito"},{"id":5,"nombre":"Walter","aldea":"Rio"},{"id":6,"nombre":"Heelen","aldea":"Rio"}]
+[{"id":1,"nombre":"REE","aldea":"Quito"},{"id":2,"nombre":"Joma","aldea":"Quito"},{"id":3,"nombre":"Fab","aldea":"Quito"},{"id":4,"nombre":"Yomy","aldea":"Quito"},{"id":5,"nombre":"Walter","aldea":"Rio"},{"id":6,"nombre":"Heelen","aldea":"Rio"},{"id":7,"nombre":"renato","aldea":"kito"},{"id":8,"nombre":"joma","aldea":"kito"}]

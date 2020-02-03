@@ -1,0 +1,11 @@
+{
+  "name": "09-juego",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "juego": "(tsc 09-juego.ts --target ES5 || echo) && node 09-juego.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

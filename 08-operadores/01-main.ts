@@ -1,3 +1,5 @@
+import { sumar, calcular, filter, map } from "./02-filter";
+
 function main(){
     const arregloEstudiantes = [
         {id:1, nombre: "Renato", nota: 7}
@@ -6,7 +8,6 @@ function main(){
         {id:4, nombre: "Heelen", nota: 3}
         {id:5, nombre: "Walter", nota: 4}
     ];
-
     // OPERADORES
     // FOREACH
     // Enviamos -> Nada
@@ -35,8 +36,8 @@ function main(){
     console.log('Arreglo de estudiantes\n',arregloEstudiantes);
     // FILTER
     // Filtra el arreglo
-    // Enviamos ->
-    // Recibimos ->
+    // Enviamos -> Condicion   
+    // Recibimos -> Arreglo filtrado
     const respuestaFilter = arregloEstudiantes.filter(
         function(valorActual,i,arreglo){
             const condicion7 = valorActual.nota >= 7;
@@ -77,6 +78,16 @@ function main(){
     console.log('Respuesta Reduce',respuestaReduce);
     console.log('Promedio',respuestaReduce / arregloEstudiantes.length);
     console.log(arregloEstudiantes);
+    console.log('Filter\n',filter(arregloEstudiantes,
+        function(valorActual,i,arr){
+            return valorActual.nota >4;
+        }));
+    console.log('Map\n',map(arregloEstudiantes,
+        function(valorActual,i,arr){
+            return{
+                nota25: valorActual.nota*5
+            };
+        }));
 }
 
 main();

@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var _02_filter_1 = require("./02-filter");
 function main() {
     var arregloEstudiantes = [
         { id: 1, nombre: "Renato", nota: 7 },
@@ -30,8 +33,8 @@ function main() {
     console.log('Arreglo de estudiantes\n', arregloEstudiantes);
     // FILTER
     // Filtra el arreglo
-    // Enviamos ->
-    // Recibimos ->
+    // Enviamos -> Condicion   
+    // Recibimos -> Arreglo filtrado
     var respuestaFilter = arregloEstudiantes.filter(function (valorActual, i, arreglo) {
         var condicion7 = valorActual.nota >= 7;
         var condicion5 = valorActual.nota < 5;
@@ -64,5 +67,13 @@ function main() {
     console.log('Respuesta Reduce', respuestaReduce);
     console.log('Promedio', respuestaReduce / arregloEstudiantes.length);
     console.log(arregloEstudiantes);
+    console.log('Filter\n', _02_filter_1.filter(arregloEstudiantes, function (valorActual, i, arr) {
+        return valorActual.nota > 4;
+    }));
+    console.log('Map\n', _02_filter_1.map(arregloEstudiantes, function (valorActual, i, arr) {
+        return {
+            nota25: valorActual.nota * 5
+        };
+    }));
 }
 main();

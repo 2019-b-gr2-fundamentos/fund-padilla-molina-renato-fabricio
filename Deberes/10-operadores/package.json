@@ -1,0 +1,11 @@
+{
+  "name": "10-operadores",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "(tsc 10-operadores.ts --target ES5 || echo) && node 10-operadores.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

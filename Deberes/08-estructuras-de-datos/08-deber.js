@@ -161,7 +161,7 @@ function main() {
                     indiceEncontrado = ninjas.findIndex(function (valorActual) {
                         return valorActual.id == idBuscar_2.id;
                     });
-                    ninjas.splice(indiceEncontrado);
+                    ninjas.splice(indiceEncontrado, 1);
                     ninjaTexto = JSON.stringify(ninjas);
                     _03_escribir_archivo_1.escribirArchivo('./lista.txt', ninjaTexto);
                     console.log(ninjas);

@@ -138,7 +138,7 @@ function main() {
                     console.log(estudianteEncontrado);
                     arregloTexto = JSON.stringify(arregloEstudiantes);
                     console.log(arregloTexto);
-                    _03_escribir_archivo_1.escribitArchivo('./ejemplo.txt', arregloTexto);
+                    _03_escribir_archivo_1.escribirArchivo('./ejemplo.txt', arregloTexto);
                     return [2 /*return*/];
             }
         });

@@ -7,5 +7,8 @@
     "juego": "(tsc 09-juego.ts --target ES5 || echo) && node 09-juego.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.3.0"
+  }
 }

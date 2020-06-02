@@ -115,7 +115,7 @@ async function main(){
             function (valorActual){
                 return valorActual.id == idBuscar.id;
             });
-        ninjas.splice(indiceEncontrado);
+        ninjas.splice(indiceEncontrado,1);
         const ninjaTexto = JSON.stringify(ninjas);
         escribirArchivo('./lista.txt',ninjaTexto);
         console.log(ninjas);
